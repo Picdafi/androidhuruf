@@ -9,7 +9,7 @@ Untuk menambahkan gambar di android studio, silahkan drag dan letakkan file gamb
 Untuk menambahkan suara di android studio, buat folder raw di dalam Res dengan cara : (Klik res – New – Resource Directory dan pada directory name tulis raw dan resouce type pilih raw)
 silahkan drag dan letakkan file suara ke dalam folder raw.
  
-### [Buat Perintah pada Activity.main.xml](https://github.com/Picdafi/androidhuruf/blob/master/MyApplication/app/src/main/res/layout/activity_main.xml).
+### [Buat Perintah pada Activity_main.xml](https://github.com/Picdafi/androidhuruf/blob/master/MyApplication/app/src/main/res/layout/activity_main.xml).
 
 
 ### [Buat Perintah pada MainActivity.xml](https://github.com/Picdafi/androidhuruf/blob/master/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.java).
@@ -23,7 +23,7 @@ silahkan drag dan letakkan file suara ke dalam folder raw.
 
 
 ### Menambahkan perintah Intent di MainActivity.java
-(perintah ini bisa disesuaikan berdasarkan jumlah class yang dibuat).
+- (perintah ini bisa disesuaikan berdasarkan jumlah class yang dibuat).
 public void bt_hurufa(View view) {
 Intent i = new Intent(MainActivity.this,hurufa.class);
 startActivity(i);
