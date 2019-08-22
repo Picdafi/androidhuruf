@@ -24,7 +24,7 @@ silahkan drag dan letakkan file suara ke dalam folder raw.
 
 ### Menambahkan perintah Intent di MainActivity.java
 - (perintah ini bisa disesuaikan berdasarkan jumlah class yang dibuat).
-public void bt_hurufa(View view) {
+- public void bt_hurufa(View view) {
 Intent i = new Intent(MainActivity.this,hurufa.class);
 startActivity(i);
 }
